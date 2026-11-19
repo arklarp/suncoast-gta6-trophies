@@ -1,392 +1,1797 @@
 {
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
- "list": "the official 55 trophies, 2026-11-18",
+ "list": "Official 55 PS5 trophies (1P, 2G, 6S, 46B, 28 hidden, 0 online)",
+ "sourcesCatalog": {
+  "ppx_guide": {
+   "title": "PowerPyx — GTA 6 Trophy Guide & Roadmap",
+   "site": "powerpyx.com",
+   "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+  },
+  "ppx_med": {
+   "title": "PowerPyx — All 18 Meditation Spot Locations",
+   "site": "powerpyx.com",
+   "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/"
+  },
+  "outlag": {
+   "title": "OutputLag — GTA 6 Trophy List & Guide",
+   "site": "outputlag.com",
+   "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+  },
+  "exophase": {
+   "title": "Exophase — Official PS5 Trophy List",
+   "site": "exophase.com",
+   "url": "https://www.exophase.com/game/grand-theft-auto-vi/"
+  },
+  "psnp": {
+   "title": "PSNProfiles — GTA VI PS5 Trophy List",
+   "site": "psnprofiles.com",
+   "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+  },
+  "gtabase": {
+   "title": "GTABase — GTA VI Mission & Side Strand Hub",
+   "site": "gtabase.com",
+   "url": "https://www.gtabase.com/grand-theft-auto-vi"
+  },
+  "pushsq": {
+   "title": "Push Square — GTA 6 Trophy Guide & Roadmap",
+   "site": "pushsquare.com",
+   "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap-how-to-get-the-platinum"
+  }
+ },
+ "stages": [
+  {
+   "id": "S1",
+   "code": "Stage 1",
+   "label": "Chapter 1 · Leonida Keys",
+   "est": "~10h",
+   "summary": "Finish Gone Fishing and Chapter 1, beat Cal at fishing, and do not leave Ch. 1 without Lucia's balcony meditation[1][2].",
+   "focus": "Keep manual save slots at chapter start & end (no mission replay)[1]."
+  },
+  {
+   "id": "S2",
+   "code": "Stage 2",
+   "label": "Chapter 2 · Dual Free-Roam",
+   "est": "~14h",
+   "summary": "Clear Breakfast Run and Coffee Break to unlock dual-character switching, partner robberies, and Combat Focus cleanup[1][2].",
+   "focus": "Open-world meditations now count twice (Jason + Lucia)[1][2]."
+  },
+  {
+   "id": "S3",
+   "code": "Stage 3",
+   "label": "Chapter 3 · Cartel & Strangers",
+   "est": "~16h",
+   "summary": "Complete The Cartel Heist and advance purple Stranger strands across Leonida as multi-day callbacks arrive[1][4].",
+   "focus": "Track 8 full stranger strands; Andy, Kenton, Billy, Randy & Tyrone[4]."
+  },
+  {
+   "id": "S4",
+   "code": "Stage 4",
+   "label": "Chapter 4 · Vice City Heists",
+   "est": "~16h",
+   "summary": "Finish Child's Play, Headliners, and VCIA Takedown, then hit VCIA departure, stealth jewelry, and 5 Bank Vaults[1][3].",
+   "focus": "Rotate saves before major vaults and late-chapter transitions[1]."
+  },
+  {
+   "id": "S5",
+   "code": "Stage 5",
+   "label": "Chapter 5 · Finale & Economy",
+   "est": "~14h",
+   "summary": "Clear Operation Savage Glory and the finale, clear 9 gang ops, launder $250k Marked Bills, buy 8 garages, register 10 rides[1][2].",
+   "focus": "Unlocks the in-game 100% Completion Checklist in Stats[1]."
+  },
+  {
+   "id": "S6",
+   "code": "Stage 6",
+   "label": "Post-Game Cleanup & Collectibles",
+   "est": "~90h",
+   "summary": "Sweep 250 Stunts, 42 Shooting Range golds, 14 Top Fun drones, 20 races, 100 WAiNK spots, 3 card sets, 52 areas, and 50 challenges[1][3].",
+   "focus": "Check launch-unconfirmed secret triggers as guides verify them[2][3]."
+  },
+  {
+   "id": "S7",
+   "code": "Stage 7",
+   "label": "100% Completion & Platinum",
+   "est": "~40h",
+   "summary": "Close out A Long Road (200/557 vehicles, 100/255 animals studied, 70/80 challenges, 15/18 meditations) to pop Vice Got a Price![1][3].",
+   "focus": "Zero online trophies; cheats stay off for the entire run[1][2]."
+  }
+ ],
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "hidden": false,
+   "kind": "completion",
+   "stage": "S7",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Never permanently locked unless you miss a chapter-bound prerequisite without a backup save; keep rotating saves across all 15 manual slots[1][2].",
+   "unconfirmed": false,
+   "guide": "Unlocks automatically once every one of the other 54 single-player PS5 trophies is earned[1][3]. All 55 trophies are offline with no multiplayer or difficulty requirements, though activating cheats disables trophy unlocks and saving[1][2].",
+   "steps": [
+    "Finish Chapters 1–5 (~60–80h) while rotating manual saves and hitting Chapter 1's balcony meditation[1][2].",
+    "Complete all side strands, robberies, collectibles, and activity milestones in post-story free-roam[1][3].",
+    "Reach 100% Completion for A Long Road to trigger the Platinum[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "~200h platinum estimate, 4/10 difficulty, 0 online, 15 save slots, cheats disable trophies."
+    },
+    {
+     "key": "outlag",
+     "backs": "Single-player only requirement, no difficulty trophies, no mission gold-medal requirement."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official PS5 Platinum name, verbatim description, and 55-trophy total."
+    }
+   ]
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S1",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Mandatory opening story mission; cannot be missed[1][3].",
+   "unconfirmed": false,
+   "guide": "Unlocks upon finishing Gone Fishing, the opening Chapter 1 story mission introducing Leonida's basics[1][3]. No difficulty setting or mission medal rank affects the unlock[1][2].",
+   "steps": [
+    "Start a fresh campaign without enabling any cheat codes[1][2].",
+    "Follow the main objective prompts through Gone Fishing until the mission complete banner pops[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Story-bound Chapter 1 unlock and no difficulty/medal requirement."
+    },
+    {
+     "key": "outlag",
+     "backs": "Cheats disable trophy progression."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze classification and verbatim mission name."
+    }
+   ]
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S1",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Story progression trophy; however, complete Lucia's balcony meditation before advancing past Chapter 1[1][2].",
+   "unconfirmed": false,
+   "guide": "Awarded automatically at the end of Chapter 1[1][3]. Before triggering the final Chapter 1 mission, save in a dedicated slot and verify you triggered Jason's backyard balcony meditation after Down to Earth[1][2].",
+   "steps": [
+    "Create a manual Chapter 1 start save and keep it untouched[1].",
+    "After Down to Earth, complete Lucia's balcony meditation so Positive Mental Attitude stays safe[1][2].",
+    "Finish the remaining Chapter 1 main story missions to unlock the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 1 story progression and manual save rotation advice."
+    },
+    {
+     "key": "ppx_med",
+     "backs": "Chapter 1 exclusive balcony meditation check before advancing."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze status and verbatim description."
+    }
+   ]
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S2",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable main story milestone; save before chapter transition since GTA VI has no mission replay[1].",
+   "unconfirmed": false,
+   "guide": "Earned automatically by finishing Chapter 2, which opens dual-protagonist switching after Coffee Break and broadens free-roam across Leonida[1][2]. Retain a Chapter 2 backup save for safety[1].",
+   "steps": [
+    "Create a dedicated Chapter 2 start save slot[1].",
+    "Play through Chapter 2's main story chain, including Breakfast Run and Coffee Break[1][2].",
+    "Complete the Chapter 2 finale to earn the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 2 story progression, no mission replay, and save-slot advice."
+    },
+    {
+     "key": "outlag",
+     "backs": "Chapter 2 dual-character free-roam unlock timing."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official PS5 trophy spelling with asterisks and hidden Bronze grade."
+    }
+   ]
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable story progression trophy[1][2].",
+   "unconfirmed": false,
+   "guide": "Unlocks automatically upon wrapping up Chapter 3, culminating in The Cartel Heist[1][2]. Keep a manual Chapter 3 save and check purple Stranger icons between main jobs[1][3].",
+   "steps": [
+    "Save in a fresh manual slot at Chapter 3 start[1].",
+    "Complete all Chapter 3 main missions through The Cartel Heist[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 3 story completion and save-slot management."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze status and verbatim title."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Chapter 3 story sequence and concurrent stranger strand unlocks."
+    }
+   ]
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S4",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable story progression trophy[1][2].",
+   "unconfirmed": false,
+   "guide": "Awarded automatically when you clear Chapter 4's Vice City story arc, which spans Child's Play, Headliners, and VCIA Takedown[1][2].",
+   "steps": [
+    "Keep a Chapter 4 start save in one of your 15 manual slots[1].",
+    "Finish every Chapter 4 main mission to trigger the chapter-complete trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 4 story progression across the 5-chapter campaign."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze trophy name and description."
+    }
+   ]
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S5",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable campaign finale; free-roam continues afterward and unlocks the 100% Checklist[1][2].",
+   "unconfirmed": false,
+   "guide": "Unlocks upon completing the final Chapter 5 story mission[1][2]. Finishing the campaign opens the in-game 100% Completion tracker under Progress > Stats > 100% Completion while preserving open-world free-roam[1].",
+   "steps": [
+    "Save manually before entering Chapter 5's closing stretch[1].",
+    "Finish the final mission to unlock this Gold trophy and post-story free-roam[1][2].",
+    "Open Progress > Stats > 100% Completion to plan your final cleanup[1]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "5-chapter campaign length (~60–80h), post-story free-roam, and 100% tracker unlock."
+    },
+    {
+     "key": "outlag",
+     "backs": "Gold story finale with no difficulty requirement."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Gold trophy name and description."
+    }
+   ]
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S2",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable Chapter 2 story mission[1][2].",
+   "unconfirmed": false,
+   "guide": "Earned automatically by finishing Breakfast Run during Chapter 2, where Jason and Lucia's diner stop turns into a robbery sequence[1][2].",
+   "steps": [
+    "Advance into Chapter 2 until Breakfast Run appears on the map[1].",
+    "Complete the mission objectives and escape to unlock the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Unmissable Chapter 2 main story progression."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze name and Breakfast Run requirement."
+    }
+   ]
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable Chapter 3 story mission[1][2].",
+   "unconfirmed": false,
+   "guide": "Unlocks automatically upon finishing The Cartel Heist, the major Chapter 3 heist centerpiece[1][2]. Stock body armor and ammo before launching the job for a smooth clear[1].",
+   "steps": [
+    "Progress Chapter 3 main missions until The Cartel Heist is available[1].",
+    "Complete every phase of the heist and getaway to pop the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 3 story-bound heist unlock."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze trophy title and mission description."
+    }
+   ]
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S4",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable Chapter 4 story mission[1][3].",
+   "unconfirmed": false,
+   "guide": "Earned automatically upon finishing Child's Play during Chapter 4[1][3]. No optional medal or difficulty condition applies[1][2].",
+   "steps": [
+    "Advance Chapter 4's main mission path to Child's Play[1].",
+    "Finish the mission to unlock the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Unmissable Chapter 4 story milestone."
+    },
+    {
+     "key": "outlag",
+     "backs": "No mission-medal requirement for campaign trophies."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze name and description."
+    }
+   ]
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S4",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable Chapter 4 story mission[1][3].",
+   "unconfirmed": false,
+   "guide": "Awarded automatically upon finishing Headliners in Chapter 4[1][3]. Play naturally with cheats disabled so progression records cleanly[1][2].",
+   "steps": [
+    "Continue Chapter 4 after Child's Play to unlock Headliners[1].",
+    "Clear the mission objectives to earn the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 4 story progression and cheats warning."
+    },
+    {
+     "key": "outlag",
+     "backs": "Cheats disable trophy unlocks and saving."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze title and Headliners requirement."
+    }
+   ]
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S4",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable Chapter 4 story mission[1][2].",
+   "unconfirmed": false,
+   "guide": "Unlocks automatically by completing VCIA Takedown in Chapter 4[1][2]. Keep a manual save before late-chapter set pieces since mission replay is absent[1].",
+   "steps": [
+    "Follow Chapter 4's story chain past Headliners to VCIA Takedown[1].",
+    "Complete the airport operation to trigger the unlock[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 4 story unlock and no mission replay warning."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze name and description."
+    }
+   ]
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "hidden": true,
+   "kind": "story",
+   "stage": "S5",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Unmissable Chapter 5 story mission[1][2].",
+   "unconfirmed": false,
+   "guide": "Earned automatically upon completing Operation Savage Glory during Chapter 5[1][2]. Top up weapons and armor before starting this late-game operation[1].",
+   "steps": [
+    "Advance into Chapter 5 until Operation Savage Glory unlocks[1].",
+    "Finish the mission to pop the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Chapter 5 story-bound progression."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze trophy title and mission name."
+    }
+   ]
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "hidden": false,
+   "kind": "completion",
+   "stage": "S7",
+   "target": 100,
+   "unit": "%",
+   "missable": "no",
+   "missableNote": "PowerPyx confirms nothing on the 100% Completion Checklist is permanently missable; everything can be finished post-story[1].",
+   "unconfirmed": false,
+   "guide": "Complete the in-game 100% checklist unlocked after the story under Progress > Stats > 100% Completion (prior progress counts retroactively)[1]. Like RDR2, the checklist is lenient (~60% true game completion): scan 200/557 vehicles via WAiNK, study 100/255 animals with binoculars, finish 70/80 challenges, 15/18 meditations, Bret's 15 hunting quests, robberies, shooting ranges, and drone races[1][2].",
+   "steps": [
+    "Finish the story to reveal Progress > Stats > 100% Completion[1].",
+    "Knock out mandatory full subsets: robberies, underwater discoveries, shooting ranges, drone races, and Bret's 15 hunting quests[1].",
+    "Hit partial thresholds: 200 vehicles scanned (WAiNK), 100 animals studied, 70/80 challenges, and 15/18 meditations[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "100% menu path, retroactive tracking, lenient thresholds (200 vehicles, 100 animals, 70/80 challenges, 15/18 meditations), zero missables."
+    },
+    {
+     "key": "outlag",
+     "backs": "Post-story checklist cleanup and ~200h platinum pacing."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Gold grade and verbatim 100% Completion requirement."
+    }
+   ]
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 250,
+   "missable": "no",
+   "missableNote": "Available throughout open-world free-roam; cannot be missed[1].",
+   "unconfirmed": false,
+   "guide": "Complete 250 Stunts across Leonida's ramps, bridges, rooftops, and waterways[1][3]. Fast bikes and upgraded sports cars make landing clean approaches much faster, and stunts also feed your 100% Completion checklist[1][2].",
+   "steps": [
+    "Use a fast agile bike or upgraded sports car for reliable approach speed and landing control[1].",
+    "Sweep regions systematically in free-roam so you do not double-check completed stunt spots[1][2].",
+    "Track running progress via the in-game Progress stats until all 250 register[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam availability and overlap with 100% completion cleanup."
+    },
+    {
+     "key": "outlag",
+     "backs": "Silver activity milestone scope."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Silver grade and 250-stunt PSN target count."
+    }
+   ]
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 9,
+   "missable": "no",
+   "missableNote": "All 9 activity categories remain playable in post-story free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Sample all 9 distinct activity types at least once across Leonida: fishing, hunting, golf, shooting ranges, pool, basketball, playing an arcade/video game, racing, and performing a stunt[1][2]. Most happen naturally while pursuing dedicated activity trophies[1].",
+   "steps": [
+    "Clear the natural trophy overlaps first: fishing (Cal), hunting (Bret), shooting range, racing, arcade, and a stunt[1].",
+    "Visit the remaining pastime icons on the map: golf, pool, and basketball[1].",
+    "Complete one round or attempt of each until all 9/9 register on PSN's tracker[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Exact 9 activity categories (fishing, hunting, golf, shooting ranges, pool, basketball, video game, racing, stunt)."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 9-activity PSN counter."
+    }
+   ]
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 42,
+   "missable": "no",
+   "missableNote": "All 42 range trials stay accessible in free-roam and count toward 100% Completion[1].",
+   "unconfirmed": false,
+   "guide": "Score a Gold medal in every one of the 42 Shooting Range challenges across Leonida's ranges[1][3]. Upgraded weapon attachments (extended mags, scopes, recoil grips) and practiced headshots make tight accuracy timers manageable[1][2].",
+   "steps": [
+    "Upgrade weapon magazines and handling mods before grinding high-tier range tiers[1].",
+    "Clear each weapon class to Gold across every shooting range venue[1][3].",
+    "Confirm 42/42 Gold medals in your stats; full completion also feeds A Long Road[1]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "42 Shooting Range challenges required for both trophy and 100% checklist."
+    },
+    {
+     "key": "outlag",
+     "backs": "Skill ceiling context within 4/10 platinum rating."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Silver grade and 42-challenge PSN target."
+    }
+   ]
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 14,
+   "missable": "no",
+   "missableNote": "All 14 drone race locations stay open in free-roam and are required for 100% Completion[1].",
+   "unconfirmed": false,
+   "guide": "Finish first in a Top Fun Drone Race at all 14 Leonida locations[1][2]. Keep your drone smooth through checkpoint rings rather than over-correcting pitch, and retry tight indoor courses until you memorize gate lines[1].",
+   "steps": [
+    "Locate all 14 Top Fun Drone Race markers across Leonida's regions[1][2].",
+    "Place 1st at each location; use one practice lap to learn sharp gate turns[1].",
+    "Verify 14/14 wins, which also satisfies the Drone Races subset for 100% Completion[1]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "14 drone race venues and mandatory overlap with 100% checklist."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 14-location PSN count."
+    }
+   ]
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 20,
+   "missable": "no",
+   "missableNote": "All open-world race events remain repeatable in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Place first in 20 distinct races across Leonida (street, off-road, water, or air events—replaying the same race does not stack)[1][2]. Invest in engine, turbo, and brake upgrades for your primary race classes first[1].",
+   "steps": [
+    "Upgrade one top-tier vehicle per race discipline (street, off-road, water)[1].",
+    "Enter and win 20 unique race courses across the map[1][2].",
+    "Check map icons for checkmark badges so you only run uncompleted courses[1]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam race progression and 100% overlap."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 20-different-races PSN target."
+    }
+   ]
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S1",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Can be challenged early in Leonida Keys and remains repeatable afterward[1][3].",
+   "unconfirmed": false,
+   "guide": "Out-fish Cal in a head-to-head fishing challenge[1][2]. Cast near visible surface ripples, ease line tension when a fish thrashes, and reel firmly during calm intervals to beat Cal's total catch[1][3].",
+   "steps": [
+    "Meet Cal at his fishing spot in the Leonida Keys and accept the fishing challenge[1][3].",
+    "Target active ripples, manage line tension when fish pull, and land heavier catches before time runs out[1].",
+    "Finish ahead of Cal's score to unlock the trophy and check off fishing for Master of None[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Early fishing activity overlap with Master of None."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and verbatim Cal challenge description."
+    },
+    {
+     "key": "pushsq",
+     "backs": "Early Leonida Keys availability and free-roam repeatability."
+    }
+   ]
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Arcade cabinets remain playable throughout free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Play an in-world arcade cabinet all the way to its completion screen rather than quitting early[1][2]. This also logs the video-game category for Master of None[1].",
+   "steps": [
+    "Find an arcade venue, bar, or safehouse cabinet offering a playable minigame[1][2].",
+    "Play through all stages or reach the finish condition to unlock the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Overlap with Master of None activity list."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and verbatim completion requirement."
+    }
+   ]
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "hidden": true,
+   "kind": "side",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Part of Leonida's Stranger strands; allow in-game days to pass between callbacks and keep chapter saves as precaution[1][2].",
+   "unconfirmed": false,
+   "guide": "Finish Andy's full Stranger questline (his Cellerica-linked arc) across Leonida[1][2]. After each mission, sleep or explore for a few in-game days until Andy texts or spawns his next purple map marker[1][2]. Counts as 1 of 8 strands for Strangers & Freaks[1].",
+   "steps": [
+    "Locate Andy's opening purple Stranger icon and finish his introductory mission[1][2].",
+    "Advance in-game time between jobs until Andy's follow-up markers appear[1][2].",
+    "Complete Andy's finale to pop the trophy and advance Strangers & Freaks[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Stranger strand pacing, multi-day callback cooldowns, and Strangers & Freaks count."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Andy's Cellerica stranger strand placement."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "hidden": true,
+   "kind": "side",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Side strand available through free-roam; keep rotating saves as general precaution[1].",
+   "unconfirmed": false,
+   "guide": "Complete Kenton's shipwreck and treasure-diving Stranger questline[1][3]. Progress each coastal salvage mission as Kenton calls you back, counting toward your 8 required Stranger strands[1][2].",
+   "steps": [
+    "Start Kenton's purple Stranger strand along the Leonida coast[1].",
+    "Finish each diving/shipwreck follow-up after in-game cooldown texts arrive[1][2].",
+    "Complete Kenton's closing mission to unlock the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Kenton's shipwreck/diving questline and free-roam availability."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Stranger strand structure across Leonida."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze name and description."
+    }
+   ]
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "hidden": true,
+   "kind": "side",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Optional Stranger strand playable through free-roam; keep manual saves between chapters[1][2].",
+   "unconfirmed": false,
+   "guide": "Finish Billy's complete Stranger mission chain tied to his Mud Club jobs[1][2]. Follow each follow-up call after sleeping or advancing chapters until his final job wraps up, also advancing Strangers & Freaks[1][2].",
+   "steps": [
+    "Pick up Billy's initial purple Stranger icon around his Mud Club hub[2].",
+    "Complete each follow-up mission as new calls or texts trigger[1][2].",
+    "Clear Billy's final mission to earn the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Stranger strand cooldown behavior and Strangers & Freaks progress."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Billy's Mud Club stranger strand details."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "hidden": false,
+   "kind": "side",
+   "stage": "S3",
+   "target": 8,
+   "missable": "possible",
+   "missableNote": "WATCH / POSSIBLY MISSABLE: More than 8 strands exist and PowerPyx notes most remain in free-roam, but some strands require multi-day chapter callbacks and GTA VI has no mission replay—start purple icons as they appear and keep chapter saves[1][2].",
+   "unconfirmed": false,
+   "guide": "Finish 8 complete Stranger questlines across Leonida[1][3]. Completing the 5 trophy-bearing strands (Andy, Kenton, Billy, Randy, Tyrone) plus 3 others (such as Bret Vogel, Kirk, Kyle, Moses, Yago, Yasmani, or Pilot Pete) gets you to 8/8[1][2]. Wait several in-game days or advance a chapter when waiting for a character's next callback[1][2].",
+   "steps": [
+    "Prioritize the 5 trophy-linked strands first: Andy, Kenton, Billy, Randy, and Tyrone[1][2].",
+    "Complete 3 additional Leonida stranger strands (e.g., Bret Vogel, Kirk, Kyle, Moses, or Pilot Pete)[2].",
+    "Sleep or progress chapters whenever a strand pauses for a follow-up call or text[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "More than 8 strands exist, multi-day callback pacing, and no mission replay caution."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Named stranger list (Andy, Billy, Bret Vogel, Kirk, Kyle, Moses, Yago, Yasmani, Pilot Pete)."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Silver grade and 8-strand PSN target."
+    }
+   ]
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "hidden": true,
+   "kind": "side",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Stranger questline available in free-roam; keep rotating chapter saves as precaution[1].",
+   "unconfirmed": false,
+   "guide": "Complete Randy's full Stranger questline (including his Wish List requests) across Leonida[1][2]. Clearing his final mission also counts as 1 of your 8 strands for Strangers & Freaks[1].",
+   "steps": [
+    "Trigger Randy's first purple Stranger marker and complete his opening request[1].",
+    "Deliver his follow-up Wish List objectives as new messages arrive[1][2].",
+    "Finish Randy's final mission to pop the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Stranger strand unlock flow and Strangers & Freaks credit."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim Randy requirement."
+    }
+   ]
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "hidden": true,
+   "kind": "side",
+   "stage": "S3",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Optional Stranger strand playable in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Finish Tyrone's complete Stranger questline tied to Kitty Litter Labs[1][3]. Wait for his follow-up texts between stages; finishing his closing mission adds 1/8 toward Strangers & Freaks[1][2].",
+   "steps": [
+    "Find Tyrone's opening purple Stranger icon linked to Kitty Litter Labs[1][2].",
+    "Complete each stage as Tyrone texts you after in-game days pass[1].",
+    "Finish Tyrone's closing mission to unlock the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Stranger callback pacing and Strangers & Freaks progress."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Tyrone's Kitty Litter Labs strand context."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "hidden": false,
+   "kind": "collectibles",
+   "stage": "S1",
+   "target": 18,
+   "missable": "possible",
+   "missableNote": "POSSIBLY MISSABLE — Spot #1 on Jason's backyard balcony is exclusive to Chapter 1 right after Down to Earth. Missing it requires an earlier manual save or a fresh run because GTA VI has no mission replay[1][2].",
+   "unconfirmed": false,
+   "unconfirmedNote": "Launch guides confirm Spot #1 adds +1 to your 18/18 total and urge doing it in Chapter 1 immediately; whether any late-game patch adds a fallback is unverified at launch[1][2].",
+   "guide": "Complete all 18 meditations across 10 Leonida locations[1][2]. Open-world purple meditation icons count twice because both Jason and Lucia can meditate at each spot separately after Chapter 2's Coffee Break unlocks dual-character free-roam[1][2]. Track exact progress in-game under Progress > Collections > Exploration > Meditations (15/18 suffices for 100% Completion, while all 18/18 are required for this trophy)[1][2].",
+   "steps": [
+    "CHAPTER 1 PRIORITY: After Down to Earth, sleep until morning at Jason's house, talk to Lucia in the kitchen, follow her to the backyard balcony, focus with L2, and choose Accept[1][2].",
+    "Unlock dual-character switching in Chapter 2 via Coffee Break[1][2].",
+    "Visit the remaining 9 open-world Leonida meditation locations (Mariana, Kelly, Lummox, and Leonard counties) and meditate with both Jason and Lucia where available until Progress > Collections > Exploration > Meditations reads 18/18[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_med",
+     "backs": "18 meditations across 10 spots, Ch.1 balcony prompt after Down to Earth (L2 + Accept), dual-protagonist counts after Coffee Break, exact menu path, 15/18 vs 18/18."
+    },
+    {
+     "key": "outlag",
+     "backs": "Chapter 1 balcony missable alert, no mission replay warning, and manual chapter save strategy."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official PS5 Bronze grade, visible status, and 18-count tracker."
+    }
+   ]
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "hidden": true,
+   "kind": "side",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Bret Vogel's 15 hunting quests remain available in post-story free-roam and count toward 100% Completion[1].",
+   "unconfirmed": false,
+   "guide": "Track and take down a unique legendary-style animal for hunter Bret Vogel[1][3]. Bret's 15 hunting quests are also a mandatory full subset for A Long Road, so clearing his hunts advances both goals[1].",
+   "steps": [
+    "Meet Bret Vogel to start his Leonida hunting questline[1][2].",
+    "Track clues to a unique animal target, use binoculars to study it for 100% stats first, then hunt it cleanly[1].",
+    "Complete the hunt for Bret to pop the trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Bret's 15 hunting quests mandatory for 100% and binocular study tip."
+    },
+    {
+     "key": "gtabase",
+     "backs": "Bret Vogel stranger strand details."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "hidden": false,
+   "kind": "collectibles",
+   "stage": "S6",
+   "target": 3,
+   "missable": "no",
+   "missableNote": "Collectible Cards stay in the open world throughout post-story free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Collect every card in 3 distinct Collectible Card sets scattered around Leonida's interiors, landmarks, and side streets[1][2]. Focus on finishing 3 specific sets rather than grabbing random singles so your progress closes out cleanly[1].",
+   "steps": [
+    "Open Progress > Collections to pick 3 specific card sets you already have partial progress on[1].",
+    "Sweep all remaining card locations for those 3 sets during post-story free-roam[1][2].",
+    "Confirm 3/3 completed sets to trigger this Silver trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam collectible cleanup and Collections menu tracking."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Silver grade and 3-set PSN count."
+    }
+   ]
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "hidden": false,
+   "kind": "collectibles",
+   "stage": "S6",
+   "target": 100,
+   "missable": "no",
+   "missableNote": "WAiNK check-in locations stay accessible throughout free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Pull out your phone and use the in-game WAiNK app at 100 unique locations, landmarks, or businesses across Leonida[1][2]. Build the habit while exploring all 52 map zones and scanning 200 vehicles for 100% Completion[1].",
+   "steps": [
+    "Open the WAiNK app on your phone whenever you arrive at a new landmark, venue, or storefront[1][2].",
+    "Pair WAiNK check-ins with your 52-area map sweep (The Goodtime State) and vehicle scans[1].",
+    "Reach 100 unique WAiNK locations to earn the Silver trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "WAiNK app mechanics and synergy with 100% vehicle scanning."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Silver grade and 100-location PSN target."
+    }
+   ]
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "hidden": false,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 50,
+   "missable": "no",
+   "missableNote": "All 80 challenges across 8 categories remain completable in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Complete any 50 of Leonida's 80 total Challenges spread across 8 categories[1][2]. Keep going to 70/80 afterward because A Long Road requires 70 challenges while still letting you skip the 10 hardest ones[1].",
+   "steps": [
+    "Review all 8 Challenge categories in your Progress menu early so passive actions count during the story[1].",
+    "Finish the 50 fastest challenges to unlock One Last Thing[1][2].",
+    "Push to 70/80 challenges (skipping the 10 toughest) for 100% Completion[1]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "80 challenges across 8 categories; 50 for trophy, 70 for 100% (10 skippable)."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 50-challenge PSN target."
+    }
+   ]
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S2",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Repeatable anytime in dual-protagonist free-roam from Chapter 2 onward[1][2].",
+   "unconfirmed": false,
+   "guide": "Trigger a 4-star Wanted Level while riding or hanging out with your partner (Jason and Lucia together), then break police line-of-sight until the heat clears completely[1][3]. Combines cleanly with Retail Therapy[1].",
+   "steps": [
+    "Pair up Jason and Lucia in free-roam after Chapter 2's Coffee Break[1][2].",
+    "Escalate your Wanted Level to 4 stars—either via back-to-back shop robberies or a shootout near a tunnel/garage getaway[1].",
+    "Break sightlines in an alley, parking structure, or off-road cover until all 4 stars clear[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Dual-protagonist free-roam pairing and Retail Therapy synergy."
+    },
+    {
+     "key": "outlag",
+     "backs": "Chapter 2 dual-character free-roam unlock."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and verbatim 4-star escape requirement."
+    }
+   ]
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S2",
+   "target": 3,
+   "missable": "no",
+   "missableNote": "Repeatable anytime Jason and Lucia can free-roam together[1][2].",
+   "unconfirmed": false,
+   "guide": "Plot a tight loop of 3 nearby convenience stores or shops, pair up Jason and Lucia, and rob all 3 in a single unbroken Wanted Level chain[1][3]. Keep police engaged loosely between stops so your stars never drop to zero before Shop #3[1].",
+   "steps": [
+    "Scout 3 close-together shops on a single Vice City corridor and park a fast 4-door getaway outside[1].",
+    "Rob Shop #1 with your partner to spark a Wanted Level, then drive straight to Shop #2 while stars stay active[1][3].",
+    "Hit Shop #3 before losing your Wanted Level; optionally escalate to 4 stars and escape for Hot Together[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Robberies overlap with 100% completion and Hot Together combo."
+    },
+    {
+     "key": "outlag",
+     "backs": "Dual-character free-roam setup."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 3-shop back-to-back PSN target."
+    }
+   ]
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "hidden": false,
+   "kind": "collectibles",
+   "stage": "S6",
+   "target": 100,
+   "missable": "no",
+   "missableNote": "Over 557 total vehicles (277 base models) exist across free-roam; cannot be missed[1].",
+   "unconfirmed": false,
+   "guide": "Discover 100 unique vehicles across Leonida by hopping into or scanning new rides with the WAiNK app[1][2]. You will sail past 100 naturally because A Long Road requires scanning 200 out of 557 vehicles[1].",
+   "steps": [
+    "Scan unfamiliar parked and passing cars with your WAiNK app as you play through the story[1].",
+    "Check highway rest stops, Vice City boulevards, marinas, and airfields for unique vehicle classes[1].",
+    "Hit 100/100 for this trophy and continue to 200 for 100% Completion[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "557 total vehicles (277 base models) and 200 WAiNK scans required for 100%."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 100-vehicle PSN count."
+    }
+   ]
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "hidden": false,
+   "kind": "misc",
+   "stage": "S2",
+   "target": 5,
+   "missable": "no",
+   "missableNote": "Can be attempted during any gunfight, gang raid, or police shootout in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Eliminate 5 hostile targets during a single activation of Combat Focus[1][2]. Wait until your Combat Focus bar is full, equip a high-capacity rifle or SMG, and trigger it when 5+ enemies cluster at a gang operation[1].",
+   "steps": [
+    "Fill your Combat Focus meter and load a high-capacity rifle or pistol with clean headshot damage[1].",
+    "Approach a crowded gang illegal operation or roadblock with at least 5 enemies in view[1].",
+    "Activate Combat Focus and chain 5 rapid headshots before the bar expires[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam combat availability and gang operation setup."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 5-enemy single-use requirement."
+    }
+   ]
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "hidden": true,
+   "kind": "crime",
+   "stage": "S4",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Vice City International Airport (VCIA) stays accessible in free-roam[1][3].",
+   "unconfirmed": false,
+   "guide": "Breach the restricted tarmac at Vice City International Airport (VCIA), commandeer an aircraft without authorization, and lift off into an unscheduled departure[1][2][3].",
+   "steps": [
+    "Drive to Vice City International Airport (VCIA) and breach a runway gate or ramp jump onto the tarmac[1][3].",
+    "Board a parked jet or propeller plane on the runway under police pursuit[3].",
+    "Throttle down the runway and lift off cleanly to unlock the trophy[2][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam airport accessibility."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze name and VCIA description."
+    },
+    {
+     "key": "pushsq",
+     "backs": "Unauthorized VCIA aircraft departure requirement."
+    }
+   ]
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "hidden": true,
+   "kind": "crime",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Military base Rhino spawns stay accessible in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Infiltrate a military installation—such as Mile Zero Air Station—and steal/climb inside a Rhino tank[1][2]. Equip heavy body armor and approach fast in an armored ride to reach the tank bay before base defenses shred you[1].",
+   "steps": [
+    "Save manually and equip full armor before heading to Mile Zero Air Station[1].",
+    "Breach the perimeter and rush straight to a parked Rhino tank on the tarmac[1].",
+    "Board the Rhino tank to pop the hidden trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Mile Zero Air Station Rhino tank theft method."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S4",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Jewelry store robberies remain repeatable in open-world free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Hit a jewelry store cleanly without tripping alarms or letting guards or cameras spot you[1][2]. Scout camera arcs before entering, use silenced gear or stealth takedowns, grab the display cases, and slip out quietly[1].",
+   "steps": [
+    "Save outside a Vice City jewelry store and scout its entrances, cameras, and guard routes[1].",
+    "Disable or avoid cameras and neutralize guards silently so no alarm sounds[1].",
+    "Loot the cases and exit undetected to unlock the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Robbery mechanics and free-roam repeatability."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and undetected jewelry robbery description."
+    }
+   ]
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S4",
+   "target": 5,
+   "missable": "no",
+   "missableNote": "Bank vaults remain open for free-roam heists and count toward 100% robberies[1].",
+   "unconfirmed": false,
+   "guide": "Crack and loot 5 separate Bank Vaults across Leonida and successfully lose the ensuing police chase each time[1][3]. Unlike convenience stores, vaults demand full armor, heavy weapons, breaching tools, and a pre-staged getaway car[1][2].",
+   "steps": [
+    "Stock full armor, breaching gear, and park a fast getaway vehicle facing the exit before entering each bank[1].",
+    "Breach the vault, grab the cash, and fight out to your getaway car[1][3].",
+    "Lose your Wanted Level completely after each of the 5 distinct bank vaults to claim this Silver trophy[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Robberies requirement for 100% completion and free-roam access."
+    },
+    {
+     "key": "outlag",
+     "backs": "Silver crime tier overview."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Silver grade and 5-vault PSN count."
+    }
+   ]
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S2",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Armored Trucks spawn dynamically throughout free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Intercept a roaming Armored Truck in Leonida, crack its rear doors, grab the cash haul, and clear your Wanted Level[1][2]. Sticky explosives or focused gunfire on the rear lock mechanism pop the doors open quickly[1].",
+   "steps": [
+    "Watch for dynamic Armored Truck icons along major Vice City and highway routes[1].",
+    "Block the truck, take out the guards, and breach the rear doors to collect the loot[1][2].",
+    "Evade police until your Wanted Level disappears to pop the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Dynamic free-roam robbery encounter and 100% synergy."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and verbatim Armored Truck description."
+    }
+   ]
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "hidden": false,
+   "kind": "collectibles",
+   "stage": "S6",
+   "target": 52,
+   "missable": "no",
+   "missableNote": "All 52 Leonida areas can be unfogged anytime in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Visit and reveal all 52 named areas across the state of Leonida[1][2]. Most unlock organically during the story and collectibles sweep; fly a helicopter or fast jet over the remaining coastal islands, swamps, and northern counties to clear the last few[1].",
+   "steps": [
+    "Play through Chapters 1–5 and collectible sweeps to discover the majority of Leonida naturally[1].",
+    "Grab a helicopter or aircraft and fly low over any fogged pockets, keys, and northern backcountry zones[1].",
+    "Reach 52/52 discovered areas to unlock the trophy[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam exploration cleanup across Leonida's counties."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 52-area PSN counter."
+    }
+   ]
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S5",
+   "target": 9,
+   "missable": "no",
+   "missableNote": "Gang illegal operations stay available across Leonida in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Scout and successfully raid at least 1 illegal operation (drug labs, chop shops, stash houses, or smuggling hubs) run by each of Leonida's 9 distinct gangs[1][2]. Keep track of which gang turf you have hit so none of the 9 are skipped[1].",
+   "steps": [
+    "Note all 9 gang territories across Leonida as they open through the campaign and side intel[1][2].",
+    "Infiltrate or assault one illegal enterprise per gang, grab the stash, and escape[1][2].",
+    "Verify all 9/9 gangs are checked off on the PSN tracker[2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Robbery cleanup and free-roam gang hub access."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 9-gang PSN count."
+    }
+   ]
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Free-roam Ocean Beach easter egg; no missable flag reported at launch[1][2].",
+   "unconfirmed": true,
+   "unconfirmedNote": "UNCONFIRMED AT LAUNCH — Exact Ocean Beach hotel/bar seat and time-of-day trigger are still being verified by launch guides; official PSN text confirms the Ocean Beach cocktail action[1][2].",
+   "guide": "A hidden nod to Vice City's iconic opening beach strip: visit Ocean Beach and order/drink a cocktail at a beachfront hotel or balcony bar overlooking the water[1][2]. Because launch guides are still pinning down the exact venue trigger, check Ocean Beach's signature beachfront terrace bars in free-roam[1][2].",
+   "steps": [
+    "Travel to Ocean Beach in Vice City during free-roam[1][2].",
+    "Visit beachfront hotel bars and terrace lounges overlooking the ocean and order a cocktail[1][2].",
+    "Watch for community confirmation of the exact seat/balcony spot if the prompt does not pop immediately[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "outlag",
+     "backs": "Launch-window verification status and Vice City Ocean Beach callback."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze title (with ellipsis) and verbatim Ocean Beach description."
+    }
+   ]
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Open-world stunt/showroom interaction; no missable window reported[1][2].",
+   "unconfirmed": true,
+   "unconfirmedNote": "UNCONFIRMED AT LAUNCH — The exact Vice City/Leonida dealership and whether a specific classic car or upper-floor window is required is awaiting launch-guide confirmation[1][2].",
+   "guide": "Steal a display vehicle inside a Leonida car dealership and smash straight through its plate-glass showroom window onto the street in classic GTA style[1][2]. Launch guides are still confirming which specific dealership showroom triggers the pop[1][2].",
+   "steps": [
+    "Locate a walk-in glass-fronted vehicle showroom in Vice City during free-roam[1][2].",
+    "Get inside a showroom display car (preferably a classic sports model) and accelerate directly through the front glass[1][2].",
+    "Check updated launch guides if a specific dealership name or upper-level jump is required[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "outlag",
+     "backs": "Launch-status tracking for cryptic showroom smash trigger."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim showroom description."
+    }
+   ]
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "hidden": true,
+   "kind": "activities",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Accessible in free-roam at the Kolt & Associates' alley[1][3].",
+   "unconfirmed": false,
+   "guide": "A playful callback to GTA IV: locate the Kolt & Associates' bowling alley and play through a bowling session (or score a clean follow-through strike/frame)[1][3]. Keep an eye on Kolt & Associates' signage in Leonida's commercial district[1][3].",
+   "steps": [
+    "Locate the Kolt & Associates' bowling alley on the map during free-roam[1][3].",
+    "Start a game of bowling (try both solo and partner hangout if needed) and complete your frames cleanly[1][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Free-roam accessibility across Leonida venues."
+    },
+    {
+     "key": "outlag",
+     "backs": "GTA IV bowling callback context and free-roam access."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze title (curly apostrophe) and Kolt & Associates' description."
+    }
+   ]
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S5",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Dual-protagonist workout/gym interaction; keep chapter saves if unsure of trigger timing[2][3].",
+   "unconfirmed": false,
+   "guide": "A cryptic hidden trophy referencing Jason and Lucia's partnership and 'mass appeal' (widely linked to hitting a gym/weightlifting personal best together as partners)[2][3]. Visit a Leonida gym/workout bench with both protagonists paired up to trigger the milestone[2][3].",
+   "steps": [
+    "Pair up Jason and Lucia in free-roam after Chapter 2[1][2].",
+    "Visit an outdoor beach gym or indoor fitness bench and push a weightlifting/workout personal best together[2][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Dual-protagonist free-roam unlock from Chapter 2."
+    },
+    {
+     "key": "outlag",
+     "backs": "Dual-protagonist activity context and cryptic hidden status."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S5",
+   "target": 500,
+   "step": 25,
+   "missable": "no",
+   "missableNote": "Cumulative PSN counter tracked to 500 across story and open-world interactions[1][2].",
+   "unconfirmed": false,
+   "guide": "PlayStation tracks a cumulative counter of 500 choices or interactive moral/dialogue decisions made across Leonida[1][2]. Engage consistently with ambient encounter prompts, dialogue responses, and mission choices rather than ignoring random events so the counter fills naturally[1][2].",
+   "steps": [
+    "Respond actively to NPC dialogue prompts, random encounters, and contextual choices throughout Chapters 1–5[1][2].",
+    "Monitor the 500-count tracker on PS5's Trophy Progress card until it completes[2]."
+   ],
+   "sources": [
+    {
+     "key": "outlag",
+     "backs": "Narrative and interactive choice tracking context."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and 500-count PSN tracker."
+    }
+   ]
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "No permanent lockout reported; keep chapter saves until launch guides verify the exact retry condition[1][2].",
+   "unconfirmed": true,
+   "unconfirmedNote": "UNCONFIRMED AT LAUNCH — The exact failure/retry or mishap event required for 'Second time's the charm' is still being pinned down by launch guides[2][3].",
+   "guide": "A hidden trophy referencing Jason's trailer line ('Bad luck, I guess') with the official hint 'Second time's the charm.'[2][3] Early guides point toward failing and retrying a specific encounter, stunt, or escape scenario—check updated launch notes once exact reproduction steps lock in[2][3].",
+   "steps": [
+    "Keep a clean set of rotating manual saves across chapters in case a specific scenario is involved[1].",
+    "Check launch-guide verification for the exact 'second try' trigger before wrapping up Stage 6 cleanup[2][3]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Manual save precaution across 15 slots."
+    },
+    {
+     "key": "outlag",
+     "backs": "Launch-unconfirmed status and retry-scenario clue."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze title and verbatim hint."
+    }
+   ]
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Open-world paranormal/UFO easter egg; no missable window reported[1][2].",
+   "unconfirmed": true,
+   "unconfirmedNote": "UNCONFIRMED AT LAUNCH — Exact Leonida coordinates, weather, and time-of-night spawn rules for this unexplained/paranormal encounter are still being confirmed at launch[1][2].",
+   "guide": "An X-Files-style hidden easter egg awarded for witnessing a bizarre, unexplained, or paranormal event in Leonida[1][2]. Like previous Rockstar UFO/ghost sightings, it likely ties to a remote swamp, mountain peak, or late-night weather window currently being mapped by the community[1][2].",
+   "steps": [
+    "Explore remote Leonida backcountry, swamps, and high peaks during late-night or stormy hours[1][2].",
+    "Check confirmed coordinates once community easter-egg hunters lock down the exact spawn window[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "outlag",
+     "backs": "Paranormal/UFO easter egg classification and launch-unconfirmed status."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze grade and verbatim description."
+    }
+   ]
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "hidden": true,
+   "kind": "misc",
+   "stage": "S6",
+   "target": 1,
+   "missable": "no",
+   "missableNote": "Free-roam vehicle melee combat trick; repeatable anytime[1][2].",
+   "unconfirmed": true,
+   "unconfirmedNote": "UNCONFIRMED AT LAUNCH — Official text confirms a melee drive-by knockdown, while exact target count (single strike vs multi-target sweep) and bike/car eligibility are still being confirmed at launch[1][2].",
+   "guide": "Knock enemies or pedestrians flying with a melee weapon swing performed while riding or driving a vehicle (such as a motorcycle melee drive-by)[1][2]. Launch guides are still confirming whether one strike pops it or if a chain/group knockdown is required[1][2].",
+   "steps": [
+    "Hop on a motorcycle with a melee weapon equipped (bat, pipe, or blunt weapon)[1][2].",
+    "Use the vehicle melee-swing control while riding past clustered targets to bowl them over[1][2].",
+    "Retry against a tight group if a single knockdown does not trigger the trophy immediately[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "outlag",
+     "backs": "Melee drive-by classification and launch verification status."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official hidden Bronze name and verbatim description."
+    }
+   ]
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "hidden": false,
+   "kind": "crime",
+   "stage": "S5",
+   "target": 250000,
+   "step": 25000,
+   "unit": "$",
+   "missable": "no",
+   "missableNote": "Marked-bill robberies and laundering contacts stay active in post-story free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Accumulate $250,000 in clean payouts by delivering Marked Bills from robberies, bank vaults, and gang operations to your laundering contacts[1][2]. Pursuing Maximum Withdrawal (5 Bank Vaults) and Pest Control (9 gang ops) supplies plenty of marked cash[1].",
+   "steps": [
+    "Gather Marked Bills from Bank Vaults, Armored Trucks, and gang Illegal Operations[1].",
+    "Route your marked cash through laundering contacts rather than sitting on dirty bills[1][2].",
+    "Continue until $250,000 in laundered earnings registers on your tracker[2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Robbery income loop and post-story availability."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and $250,000 PSN count."
+    }
+   ]
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "hidden": false,
+   "kind": "misc",
+   "stage": "S5",
+   "target": 100000,
+   "step": 10000,
+   "unit": "$",
+   "missable": "no",
+   "missableNote": "All Leonida retail, weapon, clothing, and vehicle shops remain open in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Spend a cumulative $100,000 across Leonida's retail stores—weapon upgrades, clothing, custom vehicle mods, and gear[1][2]. This pops effortlessly during Stage 5–6 as you upgrade race cars and buy range weapons[1].",
+   "steps": [
+    "Invest in weapon mods for The Shootist and performance upgrades for Earn Cash, Not Kudos[1].",
+    "Top off any remaining balance with outfits or accessories across shops until $100,000 is spent[1][2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Natural overlap with weapon and vehicle upgrades."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and $100,000 shop spend target."
+    }
+   ]
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "hidden": false,
+   "kind": "misc",
+   "stage": "S5",
+   "target": 8,
+   "missable": "no",
+   "missableNote": "All 8 garage properties remain purchasable in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Buy every one of Leonida's 8 garage properties[1][2]. Wait until post-heist payouts and Marked Bill laundering fill your bankroll in Stage 5 so you can purchase all 8 garages without grinding cash separately[1].",
+   "steps": [
+    "Build funds through Chapter 3–5 heists and $250,000 in laundered Marked Bills[1].",
+    "Locate all 8 garage real-estate listings across Leonida and purchase each one[1][2].",
+    "Confirm 8/8 owned garages to pop the trophy[2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Late-game cash flow and free-roam property access."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 8-garage PSN target."
+    }
+   ]
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "hidden": false,
+   "kind": "misc",
+   "stage": "S5",
+   "target": 10,
+   "missable": "no",
+   "missableNote": "Vehicle registration via the Scooter Bros app stays available in free-roam[1].",
+   "unconfirmed": false,
+   "guide": "Store and register 10 different vehicles to your in-game Scooter Bros app for on-demand delivery across Leonida[1][2]. Owning garage slots from Little Boxes makes rotating and registering 10 rides quick and painless[1].",
+   "steps": [
+    "Purchase garage space as you progress toward Little Boxes[1].",
+    "Register 10 unique vehicles inside the Scooter Bros phone app[1][2].",
+    "Verify 10/10 registered rides to unlock the trophy[2]."
+   ],
+   "sources": [
+    {
+     "key": "ppx_guide",
+     "backs": "Garage ownership synergy and free-roam completion."
+    },
+    {
+     "key": "exophase",
+     "backs": "Official Bronze grade and 10-vehicle Scooter Bros count."
+    }
+   ]
   }
  ]
 }

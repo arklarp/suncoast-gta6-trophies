@@ -1,25 +1,101 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUNCOAST — GTA VI (PS5) Offline Trophy Guide &amp; Tracker</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
-</header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
-<script type="module" src="app.js"></script>
+  <header class="topbar" id="topbar">
+    <div class="topbar-row topbar-primary">
+      <div class="brand-group">
+        <span class="brand-mark" aria-hidden="true" id="brand-mark"></span>
+        <div class="brand-copy">
+          <div class="brand-title-line">
+            <h1 class="brand-name">SUNCOAST</h1>
+            <span class="brand-sub">GTA VI (PS5) · Offline Guide</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-summary" id="progress-summary" aria-live="polite">
+        <div class="progress-headline">
+          <strong class="mono" id="progress-count">0 / 55 · 0%</strong>
+          <span class="grade-ledger mono" id="grade-ledger">P 0/1 · G 0/2 · S 0/6 · B 0/46 · 0 Online</span>
+        </div>
+        <div class="progress-bar-track" aria-hidden="true">
+          <div class="progress-bar-fill" id="progress-bar-fill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <span class="save-pill" id="save-status" title="Stored locally in browser localStorage">Saved locally</span>
+        <button type="button" class="toggle-btn" id="spoiler-toggle" aria-pressed="true">
+          <span class="toggle-dot" aria-hidden="true"></span>
+          <span id="spoiler-toggle-label">Spoilers: Hidden until earned</span>
+        </button>
+        <div class="io-actions">
+          <button type="button" class="btn btn-ghost" id="btn-export-top">Export JSON</button>
+          <button type="button" class="btn btn-ghost" id="btn-import-top">Import JSON</button>
+          <button type="button" class="btn btn-ghost btn-danger-ghost" id="btn-reset-top">Reset</button>
+          <input type="file" id="import-file-input" class="sr-only" accept=".json,application/json">
+        </div>
+      </div>
+    </div>
+
+    <div class="topbar-row topbar-nav">
+      <nav class="tab-bar" role="tablist" aria-label="Guide sections">
+        <button type="button" class="tab-btn is-active" role="tab" id="tab-checklist" data-tab="checklist" aria-selected="true">Checklist</button>
+        <button type="button" class="tab-btn" role="tab" id="tab-roadmap" data-tab="roadmap" aria-selected="false">Roadmap &amp; Missables</button>
+        <button type="button" class="tab-btn" role="tab" id="tab-spoilers" data-tab="spoilers" aria-selected="false">Spoilers &amp; Backup</button>
+      </nav>
+
+      <div class="nav-meta">
+        <span class="meta-ledger mono" id="meta-ledger">55/55 official · 28 hidden · 0 online · 55/55 cited</span>
+        <div class="stage-pills" id="stage-pills" aria-label="Quick roadmap stage filter"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="workspace" id="workspace">
+    <section class="view-pane is-active" id="view-checklist" aria-labelledby="tab-checklist">
+      <div class="toolbar" id="checklist-toolbar">
+        <div class="filter-pills" id="filter-pills" role="group" aria-label="Filter trophies by category"></div>
+        <div class="toolbar-controls">
+          <label class="search-box">
+            <span class="sr-only">Search trophies</span>
+            <input type="search" id="search-input" placeholder="Search trophies, missions… (/)" autocomplete="off">
+          </label>
+          <select id="grade-select" class="select-input" aria-label="Filter by grade">
+            <option value="all">All grades</option>
+            <option value="platinum">Platinum (1)</option>
+            <option value="gold">Gold (2)</option>
+            <option value="silver">Silver (6)</option>
+            <option value="bronze">Bronze (46)</option>
+          </select>
+          <select id="sort-select" class="select-input" aria-label="Sort trophies">
+            <option value="roadmap">Sort: Roadmap</option>
+            <option value="default">Sort: Default #</option>
+            <option value="grade">Sort: Grade</option>
+            <option value="progress">Sort: Progress</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="checklist-grid">
+        <div class="trophy-list-pane" id="trophy-list-pane" aria-label="Trophy checklist"></div>
+        <aside class="detail-pane" id="detail-pane" aria-label="Selected trophy walkthrough"></aside>
+      </div>
+    </section>
+
+    <section class="view-pane" id="view-roadmap" aria-labelledby="tab-roadmap" hidden></section>
+    <section class="view-pane" id="view-spoilers" aria-labelledby="tab-spoilers" hidden></section>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
